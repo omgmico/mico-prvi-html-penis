@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(to right, #ff7eff,#521a52);
+}
+
+.logo {
+
+    height: 250px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.name{
+   display: flex;
+   justify-content: center;
+
+}
+
+
+.imesajta {
+
+ text-align: center;
+ color: antiquewhite;
+ display: inline-block; 
+border: 2px solid rgb(121, 121, 188);
+border-radius: 10%;
+padding: 10px;
+
+}
+
+.projekti {
+
+color: chartreuse;
+
+
+}
+
+.opisprojekta , .lista {
+
+
+color: blanchedalmond;
+margin-left: 20px;
+
+
+}
+
+
+
+
+.button-container {
+    display: flex;
+    gap: 10px;
+  }
+  .radio-button {
+    display: none; /* Hide the default radio button */
+  }
+  .button-label {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+  }
+  .radio-button:checked + .button-label {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .pitanje {
+
+ color: #d9ff00;
+ border: 2px solid rgb(24, 243, 0);
+ padding: 20px;
+ border-radius: 10px;
+
+  }
